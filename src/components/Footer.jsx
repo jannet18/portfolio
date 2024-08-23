@@ -10,13 +10,10 @@ const Footer = () => {
           justify-between items-center"
         >
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} All rights reserved by Janet Ngei
-            .
+            &copy; {new Date().getFullYear()} All rights reserved by{" "}
+            <a href="https://portfolio-f6uq.onrender.com/">Janet Ngei</a>.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            {/* <a href="#" className="text-gray-400 hover:text-white">
-              <FaFacebook />
-            </a> */}
             <a
               href="https://x.com/lindseca_qr"
               className="text-gray-400 hover:text-white"

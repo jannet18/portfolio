@@ -10,7 +10,7 @@ const Hero = () => {
         transition-transform duration-300 hover:scale-105"
       />
       <h1 className="text-4xl font-bold">
-        <span className="ml-3 text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+        <span className="ml-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-500">
           Janet Ngei
         </span>
       </h1>
@@ -20,17 +20,19 @@ const Hero = () => {
       </p>
       <div className="mt-8 space-x-4">
         <button
-          className="bg-gradient-to-r from-green-400 to-blue-500 text-white
+          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
         >
           <a href="#contact">Contact Me</a>
         </button>
-        {/* <button
-          className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white
+        <button
+          className="bg-gradient-to-r from-green-400 to-blue-500 text-white
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
         >
-          Resume
-        </button> */}
+          <a href="https://1drv.ms/w/c/9ceda4906b57209b/ESKUiI3a7dJDvD1IaThPw8gBvzwb40md-SWZQeTajdY8Ng?e=6DaxxJ">
+            Resume
+          </a>
+        </button>
       </div>
     </div>
   );

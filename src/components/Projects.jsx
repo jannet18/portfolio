@@ -61,7 +61,7 @@ const Projects = () => {
                 <a
                   href={project.github}
                   className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
+              from-pink-500 to-yellow-500 text-white px-4 py-2 rounded-full"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -70,7 +70,7 @@ const Projects = () => {
                 <a
                   href={project.live}
                   className="inline-block bg-gradient-to-r 
-              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full"
+              from-green-400 to-blue-400 text-white px-4 py-2 rounded-full"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

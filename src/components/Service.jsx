@@ -52,7 +52,7 @@ const Service = () => {
               </div>
               <h3
                 className="mt-2 text-2xl font-bold text-transparent bg-clip-text 
-              bg-gradient-to-r from-green-400 to-blue-500"
+              bg-gradient-to-r from-pink-500 to-yellow-500"
               >
                 {service.title}
               </h3>
