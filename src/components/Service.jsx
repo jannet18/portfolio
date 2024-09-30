@@ -32,6 +32,18 @@ const services = [
   //   description: "Promote your business with our digital marketing team.",
   // },
 ];
+
+const stacks = [
+  {
+    title: "Web",
+    properties: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwindcss"],
+  },
+  {
+    title: "Database",
+    properties: ["mongoDB", "PostgreSQL", "Firebase", "Sqlite"],
+  },
+  { title: "Backend", properties: ["Ruby on Rails", "Node.js"] },
+];
 const Service = () => {
   return (
     <div className="bg-black text-white py-20" id="service">
@@ -63,6 +75,31 @@ const Service = () => {
               >
                 {/* Read More */}
               </a>
+            </div>
+          ))}
+        </div>
+
+        <h2 className="text-4xl font-bold text-center my-12">My Stacks</h2>
+        <div className="flex flex-col items-center justify-between">
+          {stacks.map((stack, id) => (
+            <div key={id} className="mb-4">
+              <h1
+                key={id}
+                className="text-green-400 hover:text-green-500 -gradient-to-r from-pink-500 to-yellow-500 text-xl font-bold pb-2"
+              >
+                {stack.title}
+              </h1>
+
+              <div className="flex items-center justify-between flex-wrap space-x-4">
+                {stack.properties.map((property, index) => (
+                  <p
+                    key={index}
+                    className="flex items-center justify-center bg-gradient-to-r  from-blue-400 to-pink-400  text-white px-2 py-2 rounded-full transform transition-transform duration-300 hover:scale-105"
+                  >
+                    {property}
+                  </p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
