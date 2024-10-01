@@ -90,7 +90,7 @@ const Service = () => {
                 {stack.title}
               </h1>
 
-              <div className="flex items-center justify-between flex-wrap space-x-4">
+              <div className="flex items-center justify-between flex-wrap space-x-4 space-y-3">
                 {stack.properties.map((property, index) => (
                   <p
                     key={index}
