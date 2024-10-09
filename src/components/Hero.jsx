@@ -29,7 +29,7 @@ const Hero = () => {
           className="bg-gradient-to-r from-green-400 to-blue-500 text-white
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full"
         >
-          <a href="https://1drv.ms/w/c/9ceda4906b57209b/ESKUiI3a7dJDvD1IaThPw8gBvzwb40md-SWZQeTajdY8Ng?e=6DaxxJ">
+          <a href="https://docs.google.com/document/d/1BU_Y_Q_XFzOOli3iofCsOG-ouTQMeSh1JWbFPhP-ohI/edit?usp=sharing">
             Resume
           </a>
         </button>
