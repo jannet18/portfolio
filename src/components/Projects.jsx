@@ -3,6 +3,28 @@ import React from "react";
 const projects = [
   {
     id: 1,
+    name: "Entrust Productions",
+    technologies: "MERN stack",
+    description:
+      "Entrust Productions is a dynamic web application for an event planning service, allowing users to explore a range of catered events, browse venues and rent event materials. Integrated with airtable for seamless booking management via custom form, enhancing user experience and streamlining data collection.",
+    image:
+      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1732369883/Screenshot_2024-11-12_at_11.37.49_mvcv2z.png",
+    github: "https://github.com/jannet18/entrust-events-client",
+    live: "https://entrustproductions.co.ke/",
+  },
+  {
+    id: 2,
+    name: "Summarise",
+    technologies: "React/API",
+    description:
+      "Summarise is a web application that allows users to smartly summarize online articles by providing a URL.The app is integrated with an external API for real-time text summarisation, offering users quick and accurate insights from lengthy content.",
+    image:
+      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727724944/Screenshot_2024-09-29_at_19.18.29_lh3xrl.png",
+    github: "https://github.com/jannet18/notes-summarizer",
+    live: "https://entrustproductions.co.ke/",
+  },
+  {
+    id: 3,
     name: "Urembo Village",
     technologies: "MERN stack",
     description:
@@ -14,7 +36,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 4,
     name: "Beautiful Destinations",
     technologies: "MERN stack",
     image:
@@ -25,30 +47,6 @@ const projects = [
     // live: "https://ngo-client.onrender.com/",
   },
   {
-    id: 3,
-    name: "Summarise",
-    technologies: "React/API",
-    description:
-      "Summarise is a web application that allows users to smartly summarize online articles by providing a URL.The app is integrated with an external API for real-time text summarisation, offering users quick and accurate insights from lengthy content.",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727724944/Screenshot_2024-09-29_at_19.18.29_lh3xrl.png",
-    github: "https://github.com/jannet18/notes-summarizer",
-    live: "https://notes-summarizer-ptpf.onrender.com/",
-  },
-
-  {
-    id: 4,
-    name: "The Entrust Initiative",
-    technologies: "React/rails",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437901/Screenshot_2024-08-23_at_21.27.02_lpvbnc.png",
-    description:
-      "A comprehensive web application for a non-profit worship school aimed at providing worship education to underprivileged children. The application features a user friendly interface for students, teachers, and administrators, and includes functionalities for program management, student registration, volunteer applications, and donations.",
-    github: "https://github.com/jannet18/ngo-client",
-    live: "https://ngo-client.onrender.com/",
-  },
-
-  {
     id: 5,
     name: "Authentication App",
     technologies: "MERN Stack",
@@ -58,6 +56,18 @@ const projects = [
       "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437888/Screenshot_2024-08-23_at_21.27.53_gsncaw.png",
     github: "https://github.com/jannet18/auth-mern",
     live: "https://auth-mern-3tl9.onrender.com/",
+  },
+
+  {
+    id: 6,
+    name: "The Entrust Initiative",
+    technologies: "React/rails",
+    image:
+      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437901/Screenshot_2024-08-23_at_21.27.02_lpvbnc.png",
+    description:
+      "A comprehensive web application for a non-profit worship school aimed at providing worship education to underprivileged children. The application features a user friendly interface for students, teachers, and administrators, and includes functionalities for program management, student registration, volunteer applications, and donations.",
+    github: "https://github.com/jannet18/ngo-client",
+    live: "https://ngo-client.onrender.com/",
   },
 ];
 
