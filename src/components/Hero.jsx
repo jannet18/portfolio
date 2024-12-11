@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="bg-black text-white text-center py-16">
       <img
-        src="https://media.licdn.com/dms/image/v2/C4D03AQH_LrmcqEJqag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1610626274439?e=1729728000&v=beta&t=DxsWT8sBfM3BYVmANckB47tKIoDKFW3Re2YimRsQGGg"
+        src="https://res.cloudinary.com/dqvb49fnb/image/upload/v1733910210/profile-_onqrii.jpg"
         alt=""
         className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform 
         transition-transform duration-300 hover:scale-105"
