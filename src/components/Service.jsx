@@ -36,7 +36,7 @@ const services = [
 const stacks = [
   {
     title: "Web",
-    properties: ["HTML5", "CSS3", "JavaScript", "React.js", "Tailwindcss"],
+    properties: ["HTML5", "CSS3", "JavaScript", "React.js", "TailwindCSS"],
   },
   {
     title: "Database",
@@ -85,13 +85,13 @@ const Service = () => {
             <div key={id} className="mb-4">
               <h1
                 key={id}
-                className="text-green-400 hover:text-green-500 -gradient-to-r from-pink-500 to-yellow-500 text-xl font-bold"
+                className="text-green-400 hover:text-green-500 -gradient-to-r from-pink-500 to-yellow-500 text-xl font-bold my-3"
               >
                 {stack.title}
               </h1>
 
-              {/* <div className="flex items-center justify-between flex-wrap space-x-4 space-y-3"> */}
-              <div className="flex items-center gap-4 my-2">
+              <div className="flex items-center justify-between flex-wrap gap-4">
+                {/* <div className="grid grid-cols-3 gap-4"> */}
                 {stack.properties.map((property, index) => (
                   <p
                     key={index}
