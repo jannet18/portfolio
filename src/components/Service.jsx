@@ -85,16 +85,17 @@ const Service = () => {
             <div key={id} className="mb-4">
               <h1
                 key={id}
-                className="text-green-400 hover:text-green-500 -gradient-to-r from-pink-500 to-yellow-500 text-xl font-bold pb-2"
+                className="text-green-400 hover:text-green-500 -gradient-to-r from-pink-500 to-yellow-500 text-xl font-bold"
               >
                 {stack.title}
               </h1>
 
-              <div className="flex items-center justify-between flex-wrap space-x-4 space-y-3">
+              {/* <div className="flex items-center justify-between flex-wrap space-x-4 space-y-3"> */}
+              <div className="flex items-center gap-4 my-2">
                 {stack.properties.map((property, index) => (
                   <p
                     key={index}
-                    className="flex items-center justify-center bg-gradient-to-r  from-blue-400 to-pink-400  text-white px-2 py-2 rounded-full transform transition-transform duration-300 hover:scale-105"
+                    className="flex items-center justify-center bg-gradient-to-r  from-blue-400 to-pink-400  text-white px-3 py-3 rounded-full transform transition-transform duration-300 hover:scale-105"
                   >
                     {property}
                   </p>
