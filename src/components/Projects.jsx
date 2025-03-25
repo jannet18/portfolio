@@ -33,7 +33,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727725515/Screenshot_2024-09-30_at_22.40.36_zcurr5.png",
     github: "https://github.com/urembovillage/urembo-front-end",
-    live: "https://urembo-front-end.onrender.com/",
+    // live: "https://urembo-front-end.onrender.com/",
   },
 
   {
