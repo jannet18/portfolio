@@ -10,7 +10,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/dqvb49fnb/image/upload/v1732369883/Screenshot_2024-11-12_at_11.37.49_mvcv2z.png",
     github: "https://github.com/jannet18/entrust-events-client",
-    live: "https://entrustproductions.co.ke/",
+    // live: "https://entrustproductions.co.ke/",
+    live: "https://entrust-programs.onrender.com/",
   },
   {
     id: 2,
@@ -21,7 +22,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727724944/Screenshot_2024-09-29_at_19.18.29_lh3xrl.png",
     github: "https://github.com/jannet18/notes-summarizer",
-    live: "https://entrustproductions.co.ke/",
+    live: "https://notes-summarizer-ptpf.onrender.com",
   },
   {
     id: 3,
