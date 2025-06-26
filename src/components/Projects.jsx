@@ -3,10 +3,22 @@ import React from "react";
 const projects = [
   {
     id: 1,
+    name: "Finance Manager",
+    technologies: "MERN Stack",
+    description:
+      "Finance Manager is a modern web application designed to simplify personal finance management. It enables users to track income and expenses, organize transactions by category, and visualize their financial data through clean, interactive charts. Built with a full-stack approach, it demonstrates my ability to design, develop, and deploy real-world applications that solve everyday problems.",
+    image:
+      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1750024273/Screenshot_2025-06-16_at_00.50.25_v149ns.png",
+    github: "https://github.com/jannet18/expenses-tracker",
+    live: "https://expenses-tracker-haqf.onrender.com/",
+  },
+
+  {
+    id: 2,
     name: "Entrust Productions",
     technologies: "MERN stack",
     description:
-      "Entrust Productions is a dynamic web application for an event planning service, allowing users to explore a range of catered events, browse venues and rent event materials. Integrated with airtable for seamless booking management via custom form, enhancing user experience and streamlining data collection.",
+      "Entrust Productions is a dynamic web application for an event planning service, enabling users to explore curated events, browse venues and rent event materials. Integrated with airtable for seamless booking management via custom form, enhancing user experience and streamlining backend data workflows.",
     image:
       "https://res.cloudinary.com/dqvb49fnb/image/upload/v1732369883/Screenshot_2024-11-12_at_11.37.49_mvcv2z.png",
     github: "https://github.com/jannet18/entrust-events-client",
@@ -14,7 +26,7 @@ const projects = [
     live: "https://entrust-programs.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     name: "Summarise",
     technologies: "React/API",
     description:
@@ -24,52 +36,60 @@ const projects = [
     github: "https://github.com/jannet18/notes-summarizer",
     live: "https://notes-summarizer-ptpf.onrender.com",
   },
-  {
-    id: 3,
-    name: "Urembo Village",
-    technologies: "MERN stack",
-    description:
-      "A full-featured E-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to search for products, view product details, add to cart,add to favourites and proceed to checkout with payments seamlessly and manage cart with secure authentication and a smooth user interface.",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727725515/Screenshot_2024-09-30_at_22.40.36_zcurr5.png",
-    github: "https://github.com/urembovillage/urembo-front-end",
-    // live: "https://urembo-front-end.onrender.com/",
-  },
+  // {
+  //   id: 4,
+  //   name: "Pricing Plan",
+  //   technologies: "React/API",
+  //   description: "",
+  //   image: "",
+  //   github: "https://github.com/jannet18/pricing-plan",
+  //   live: "https://pricing-plan-q6n6.onrender.com/",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Urembo Village",
+  //   technologies: "MERN stack",
+  //   description:
+  //     "A full-featured E-commerce web application built using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to search for products, view product details, add to cart,add to favourites and proceed to checkout with payments seamlessly and manage cart with secure authentication and a smooth user interface.",
+  //   image:
+  //     "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727725515/Screenshot_2024-09-30_at_22.40.36_zcurr5.png",
+  //   github: "https://github.com/urembovillage/urembo-front-end",
+  //   // live: "https://urembo-front-end.onrender.com/",
+  // },
 
-  {
-    id: 4,
-    name: "Beautiful Destinations",
-    technologies: "MERN stack",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727725786/Screenshot_2024-09-30_at_22.48.25_mymsk6.png",
-    description:
-      "A full-stack web application for hotel bookings built using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to search for hotels, view details, make bookings with payments seamlessly and manage reservations with secure authentication and a smooth user interface.",
-    github: "https://github.com/jannet18/beautiful-destinations-client",
-    // live: "https://ngo-client.onrender.com/",
-  },
-  {
-    id: 5,
-    name: "Authentication App",
-    technologies: "MERN Stack",
-    description:
-      "Project provides a secure and scalable solution for managing user authentication and authorization. It ensures that users can safely access their accounts and perform actions based on their roles and permissions",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437888/Screenshot_2024-08-23_at_21.27.53_gsncaw.png",
-    github: "https://github.com/jannet18/auth-mern",
-    live: "https://auth-mern-3tl9.onrender.com/",
-  },
-
-  {
-    id: 6,
-    name: "The Entrust Initiative",
-    technologies: "React/rails",
-    image:
-      "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437901/Screenshot_2024-08-23_at_21.27.02_lpvbnc.png",
-    description:
-      "A comprehensive web application for a non-profit worship school aimed at providing worship education to underprivileged children. The application features a user friendly interface for students, teachers, and administrators, and includes functionalities for program management, student registration, volunteer applications, and donations.",
-    github: "https://github.com/jannet18/ngo-client",
-    live: "https://ngo-client.onrender.com/",
-  },
+  // {
+  //   id: 4,
+  //   name: "Beautiful Destinations",
+  //   technologies: "MERN stack",
+  //   image:
+  //     "https://res.cloudinary.com/dqvb49fnb/image/upload/v1727725786/Screenshot_2024-09-30_at_22.48.25_mymsk6.png",
+  //   description:
+  //     "A full-stack web application for hotel bookings built using the MERN stack (MongoDB, Express, React, Node.js). This app allows users to search for hotels, view details, make bookings with payments seamlessly and manage reservations with secure authentication and a smooth user interface.",
+  //   github: "https://github.com/jannet18/beautiful-destinations-client",
+  //   // live: "https://ngo-client.onrender.com/",
+  // },
+  // {
+  //   id: 5,
+  //   name: "Authentication App",
+  //   technologies: "MERN Stack",
+  //   description:
+  //     "Project provides a secure and scalable solution for managing user authentication and authorization. It ensures that users can safely access their accounts and perform actions based on their roles and permissions",
+  //   image:
+  //     "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437888/Screenshot_2024-08-23_at_21.27.53_gsncaw.png",
+  //   github: "https://github.com/jannet18/auth-mern",
+  //   live: "https://auth-mern-3tl9.onrender.com/",
+  // },
+  // {
+  //   id: 6,
+  //   name: "The Entrust Initiative",
+  //   technologies: "React/rails",
+  //   image:
+  //     "https://res.cloudinary.com/dqvb49fnb/image/upload/v1724437901/Screenshot_2024-08-23_at_21.27.02_lpvbnc.png",
+  //   description:
+  //     "A comprehensive web application for a non-profit worship school aimed at providing worship education to underprivileged children. The application features a user friendly interface for students, teachers, and administrators, and includes functionalities for program management, student registration, volunteer applications, and donations.",
+  //   github: "https://github.com/jannet18/ngo-client",
+  //   live: "https://ngo-client.onrender.com/",
+  // },
 ];
 
 const Projects = () => {

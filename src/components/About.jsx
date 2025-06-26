@@ -42,7 +42,10 @@ const About = () => {
             </p>
             <div className="space-y-6">
               {skills.map((skill) => (
-                <div className="flex items-center gap-6" key={skill.name}>
+                <div
+                  className="flex items-center justify-center gap-14 sm:gap-10"
+                  key={skill.name}
+                >
                   <label className="w-2/12 whitespace-nowrap">
                     {skill.name}
                   </label>

@@ -58,7 +58,7 @@ const Service = () => {
             >
               <div
                 className="text-right text-2xl font-bold text-transparent bg-clip-text 
-              bg-gradient-to-r from-green-600 to-blue-400"
+              bg-gradient-to-r from-green-600 to-blue-400 pt-4"
               >
                 {service.id}
               </div>
