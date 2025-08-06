@@ -26,7 +26,7 @@ const Navbar = () => {
           className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-4 py-3 rounded-full"
         >
-          <a href="https://www.linkedin.com/in/janet-mutindi-ngei/">
+          <a href="https://www.linkedin.com/in/janet-ngei-mutindi/">
             Connect with Me
           </a>
         </button>

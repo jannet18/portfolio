@@ -21,7 +21,7 @@ const Footer = () => {
               <FaTwitter />
             </a>
             <a
-              href="https://www.linkedin.com/in/janet-mutindi-ngei/"
+              href="https://www.linkedin.com/in/janet-ngei-mutindi/"
               className="text-gray-400 hover:text-white"
             >
               <FaLinkedin />

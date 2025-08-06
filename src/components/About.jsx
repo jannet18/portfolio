@@ -69,7 +69,7 @@ const About = () => {
             </div>
             <div className="mt-12 flex justify-center space-x-6">
               <a
-                href="https://www.linkedin.com/in/janet-mutindi-ngei/"
+                href="https://www.linkedin.com/in/janet-ngei-mutindi/"
                 className="text-green-400 hover:text-green-500"
               >
                 <FaLinkedin size="2rem" />

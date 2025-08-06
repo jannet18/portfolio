@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <div className="bg-black text-white text-center py-16">
       <img
-        src="https://res.cloudinary.com/dqvb49fnb/image/upload/v1733910210/profile-_onqrii.jpg"
-        alt=""
+        src="https://res.cloudinary.com/dqvb49fnb/image/upload/uploads/andixzpovvdvyuivq90l.png"
+        alt="profile-image"
         className="mx-auto mb-8 w-48 h-48 rounded-full object-cover transform 
         transition-transform duration-300 hover:scale-105"
       />
