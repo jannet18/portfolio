@@ -24,8 +24,7 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Me</h2>
         <div className="flex flex-col md:flex-row items-center md:space-x-12">
           <img
-            // src="https://res.cloudinary.com/dqvb49fnb/image/upload/v1733910210/profile-_onqrii.jpg"
-            src="https://res.cloudinary.com/dqvb49fnb/image/upload/v1751972596/uploads/andixzpovvdvyuivq90l.png"
+            src="https://res.cloudinary.com/dqvb49fnb/image/upload/uploads/andixzpovvdvyuivq90l.png"
             alt="Profile"
             className="w-72 h-80 rounded-full object-cover mb-8 md:mb-0 shadow-lg"
           />
